@@ -14,6 +14,24 @@ for ($i = 0; $i < count($arr); $i++) {
     echo $arr[$i];
     echo '<br>';
 }
+$arr[] = 50;//34/56/78/90/50
+$arr[] = 60;//34/56/78/90/50/60
+
+foreach ($arr as $item) {
+    echo $item;
+    echo '<br>';
+}
+
+$user1 = array(
+    'name' => 'Nam',
+    'age' => 40
+);
+$user1['address'] = 'Hạ Long, QN';
+foreach ($user1 as $k => $v) {
+    echo "$k=>$v";
+}
+
+$arr[0] = 20;
 ?>
 </body>
 </html>

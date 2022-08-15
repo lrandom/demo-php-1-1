@@ -10,6 +10,7 @@
 <body>
 <div class="container">
     <?php include 'commons/nav.php'; ?>
+    <?php include 'commons/nav.php'; ?>
     <div>
         Nội dung trang chủ
     </div>
